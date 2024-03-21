@@ -40,4 +40,8 @@ public class Student {
         setCourses(courses);
         setPostalAddress(postalAddress);
     }
+
+    public String toString() {
+        return "Name: " + name + "\nCNIC: " + cnic + "\nCourses: " + courses[0].getCourseCode() + " " + courses[0].getCourseTitle() + "\nAddress: " + postalAddress.getStreet() + " " + postalAddress.getTown() + " " + postalAddress.getCity() + " " + postalAddress.getCountry() + " " + postalAddress.getPhoneNumber();
+    }
 }

@@ -22,4 +22,8 @@ public class Course {
         setCourseCode(courseCode);
         setCourseTitle(courseTitle);
     }
+
+    public String toString() {
+        return "Course Code: " + CourseCode + "\nCourse Title: " + CourseTitle;
+    }
 }

@@ -52,4 +52,8 @@ public class Address {
         setCountry(country);
         setPhoneNumber(phoneNumber);
     }
+
+    public String toString() {
+        return "Street: " + street + "\nTown: " + town + "\nCity: " + city + "\nCountry: " + country + "\nPhone Number: " + phoneNumber;
+    }
 }
