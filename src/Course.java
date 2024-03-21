@@ -17,4 +17,9 @@ public class Course {
     public void setCourseTitle(String courseTitle) {
         CourseTitle = courseTitle;
     }
+
+    public Course(String courseCode, String courseTitle) {
+        setCourseCode(courseCode);
+        setCourseTitle(courseTitle);
+    }
 }
